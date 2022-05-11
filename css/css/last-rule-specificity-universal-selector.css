@@ -1,0 +1,18 @@
+/* last rule */
+p {
+  color: blue;
+}
+p {
+  color: rebeccapurple;
+}
+/* specificity */
+.red {
+  color: red;
+}
+p {
+  color: greenyellow;
+}
+/*  *universal selector */
+*{
+ color: rebeccapurple;
+}

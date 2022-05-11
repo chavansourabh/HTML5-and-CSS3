@@ -1,0 +1,15 @@
+div{
+ color: beige;
+ background: saddlebrown;
+}
+span{
+ background-color: darkmagenta;
+}
+#uppercase{
+ text-transform: uppercase;
+ background-color: lightblue;
+}
+#lowercase{
+ text-transform: lowercasew;
+ background-color: rgb(10, 59, 75);
+}

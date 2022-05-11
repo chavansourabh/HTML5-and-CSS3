@@ -1,9 +1,18 @@
 /* element selector */
-h1{
- color: darkgoldenrod;
+/* h1 {
+  color: darkgoldenrod;
 }
-h2{
- color:steelblue ;
+h2 {
+  color: steelblue;
 }
-p{
-color: slateblue;}
+p {
+  color: slateblue;
+} */
+
+/* grouping selector */
+body {
+  color: seagreen;
+}
+h1,h2{
+ color: salmon;
+}

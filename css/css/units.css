@@ -1,0 +1,43 @@
+/* font-size,width,height,pixels */
+
+h1 {
+  font-size: 60px;
+  width: 300px;
+  height: 200px;
+  background-color: lemonchiffon;
+}
+
+/* percent value - relative */
+.outer {
+  width: 200px;
+  height: 200px;
+  background: lightsalmon;
+}
+.inner {
+  width: 50%;
+  height: 50%;
+  background-color: cornflowerblue;
+}
+/* em - relative depends on parent
+1em = 16px default browser style
+1em = base value */
+.relative {
+  font-size: 2em;
+}
+.absolute {
+  font-size: 32px;
+}
+
+/* vh - height - percent of the screen */
+/* vw - width - percent of the screen */
+
+.banner{
+ width: 50vw;
+ height: 50vh;
+ background-color: violet;
+}
+.header{
+ width: 100vw;
+ height: 100vh;
+ background: rgb(223, 140, 81);
+}

@@ -1,0 +1,12 @@
+body {
+  font-family: monospace;
+  line-height: 1.5em;
+  color: red;
+}
+div {
+  color: cadetblue;
+}
+h1 {
+  color: greenyellow;
+  border: 3px solid black;
+}
