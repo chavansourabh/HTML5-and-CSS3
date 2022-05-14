@@ -1,0 +1,27 @@
+/* inline-block */
+a {
+  font-size: 40px;
+  background-color: red;
+  color: black;
+  margin: 20px;
+  display: inline-block;
+}
+.box1,
+.box2,
+.box3 {
+  width: 200px;
+  height: 200px;
+  color: whitesmoke;
+}
+.box1 {
+  background-color: burlywood;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.box2 {
+  background-color: coral;
+}
+.box3 {
+  background-color: cornflowerblue;
+  padding: 20px;
+}

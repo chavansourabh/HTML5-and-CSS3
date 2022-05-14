@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo&family=Niconne&family=Water+Brush&display=swap");
+
+/* font-stack generic-family
+serif, sans-serif , cursive,fantacy , monospace
+text-align
+text-indent
+*/
+body {
+  font-family: "Macondo", cursive;
+  font-style: italic;
+  text-align: center;
+}
+.main {
+  background-color: antiquewhite;
+  color: black;
+  font-family: "Water Brush", cursive;
+}
+
+/* Font-Weight Font-Style */
+
+.subheading {
+  font-style:normal;
+  text-align: left;
+}
+.one {
+  font-weight: bold;
+}
+.two {
+  text-align: left;
+  font-weight: 900;
+  text-indent: 10rem;
+}

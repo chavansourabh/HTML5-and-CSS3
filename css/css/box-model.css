@@ -1,0 +1,28 @@
+/* *{
+ margin: 0px;
+} */
+h1 { 
+ text-align: center;
+  background-color: tomato;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  margin: 50px;
+  border-style: outset;
+  border-width: 20px;
+  border-color: gold;
+  border-radius: 30px;
+}
+p {
+  background-color: violet;
+  padding: 50px;
+border:8px dotted lavenderblush;
+border-radius: 20px;
+
+  }
+/* padding:  30px    40px
+       top-bottom   left-right
+padding: 10px  20px   15px    25px
+         top   right  bottom  left  */

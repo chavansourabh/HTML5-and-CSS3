@@ -1,0 +1,20 @@
+.buttons{
+ margin: 3rem;
+}
+a{
+ background:rgba(14, 235, 235, 0.719);
+ text-decoration: none;
+ padding: 1.2rem 1.5rem;
+ color: yellow;
+ text-transform: uppercase;
+ cursor: pointer;
+ margin: 0 20px;
+}
+#one{
+ border:0.2rem solid coral ;
+}
+#two{
+ outline-width: 0.2rem;
+ outline-style: solid;
+ outline-offset: -10px;
+}

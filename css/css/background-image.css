@@ -1,0 +1,38 @@
+*{
+ text-transform: uppercase;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+div{
+ min-height: 100vh;
+ color: coral;
+ font-size: 60px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+.big-img{
+ background-image: url(./images/big-img.jpg);
+background-repeat: round;
+background-size: cover;
+background-attachment: fixed;
+}
+.small-img{
+ border: 2px solid red;
+ background-image: url(./images/small-img.jpg);
+ background-repeat:no-repeat ;
+ /* background-size: cover; */
+ background-position: center;
+background-attachment: fixed;
+
+ 
+}
+.folder-img{
+ background-image: url(./images/pexels-brady-knoll-5180492.jpg);
+background-size: contain;
+background-repeat:no-repeat ;
+background-attachment: fixed;
+
+}
