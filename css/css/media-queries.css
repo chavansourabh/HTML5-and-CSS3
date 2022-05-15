@@ -1,0 +1,41 @@
+body {
+  background-color: #caffb9;
+}
+.banner {
+  background-color: #aef78e;
+  border-radius: 10px;
+}
+h1 {
+  color: #538369;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 547px) {
+  body {
+    background-color: #f6feaa;
+  }
+  .banner {
+    background-color: #fce694;
+    border-radius: 20px;
+  }
+  h1 {
+    color: #f68568;
+    font-size: 60px;
+  }
+}
+@media screen and (min-width: 789px) {
+  body {
+    background-color: #bacba9;
+  }
+  .banner {
+    background-color: #e1f4cb;
+    border-radius: 20px;
+  }
+  h1 {
+    color: #373737;
+    font-size: 60px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+}

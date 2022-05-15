@@ -1,0 +1,60 @@
+/* 
+pseudo element ::before ::after CONTENT not element
+content:'' ---required
+imd ---does not work */
+p::before {
+  content: "hello ";
+  font-weight: bold;
+  font-size: 2rem;
+  color: cadetblue;
+  display: block;
+  background-color: antiquewhite;
+}
+p::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(221, 137, 27);
+}
+div {
+  width: 60vh;
+  margin: 100px auto;
+  /* border: 5px solid saddlebrown; */
+  position: relative;
+}
+img {
+  width: 100%;
+  display: block;
+}
+div::before{
+ content: "";
+ border: 3px solid saddlebrown;
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ box-sizing: border-box;
+ top: -30px;
+ left: -30px;
+ z-index: -2;
+ transition: all 0.4s linear;
+
+}
+div::after{
+ content: "";
+ width: 100%;
+ background-color: gray;
+ height: 100%;
+ position: absolute;
+ box-sizing: border-box;
+ top: -15px;
+ left: -15px;
+ z-index: -1;
+ transition: all 0.4s linear;
+}
+
+div:hover::before,
+div:hover::after{
+ top: 0;
+ left: 0;
+}

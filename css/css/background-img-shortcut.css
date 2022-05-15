@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  color: rgb(204, 128, 57);
+}
+.banner {
+  background: url(./images/big-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/big-img.jpg) center/cover no-repeat fixed;
+}
+.colorzilla {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1b178c+1,e93cec+100 */
+background: #1b178c; /* Old browsers */
+background: -moz-linear-gradient(left,  #1b178c 1%, #e93cec 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #1b178c 1%,#e93cec 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #1b178c 1%,#e93cec 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b178c', endColorstr='#e93cec',GradientType=1 ); /* IE6-9 */
+
+
+}

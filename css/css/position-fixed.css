@@ -1,0 +1,14 @@
+button{
+ background-color: tomato;
+ color: wheat;
+ font-size: 30px;
+ position: fixed;
+ top: 0;
+ right: 0;
+
+}
+h1{
+ color: cornflowerblue;
+ text-align: center;
+ text-transform: capitalize;
+}
