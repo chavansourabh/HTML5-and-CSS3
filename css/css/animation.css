@@ -1,0 +1,41 @@
+div{
+ width: 200px;
+ height: 100px;
+ color: #5C7AFF;
+ font-size: 40px;
+ text-align: center;
+ margin: 10px;
+}
+.transition{
+ background-color:#73FBD3 ;
+ transition: all 1.5s linear;
+}
+.transition:hover{
+ color: black;
+ background-color:#30a3a5 ;
+ transform: translateX(150px);
+}
+.animation{
+ background-color: #FF715B;
+ /* animation-name: move;
+ animation-duration: 8s;
+ animation-iteration-count: 4; */
+ animation: move 6s infinite;
+}
+@keyframes move{
+ 0%{
+  transform: translateX(20px);
+ }
+ 25%{
+  transform: translate(100px);
+  background-color:#F2E863 ;
+ }
+ 50%{
+  transform: translate(-150px);
+  background-color:#B2FFA9;
+ }
+ 100%{
+  transform: translate(100px);
+  background-color:#BCED09 ;
+ }
+}

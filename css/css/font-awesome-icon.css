@@ -1,0 +1,17 @@
+.fa-apple{
+ color: yellowgreen;
+}
+.social-icon{
+  width: 300px;
+  height: 300px;
+ font-size: 8rem;
+ color: crimson;
+ background: linear-gradient(to top,crimson,purple);
+  margin: 20px;
+  /* border-radius:44px; */
+}
+.fa-instagram{
+ padding: 15px;
+color:red;
+
+}

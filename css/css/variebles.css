@@ -1,0 +1,24 @@
+:root{
+ --primaryColor:#D30C7B;
+ --secondaryColor:#3A2D32;
+ --mainTransition:all 0.5s linear;
+}
+.heading{
+ color: var(--primaryColor);
+}
+.second-heading{
+ color: var(--primaryColor);
+ transition: var(--mainTransition);
+}
+.second-heading:hover{
+ color: var(--secondaryColor);
+}
+div{
+ --primaryRed:red;
+}
+.main-text{
+ color: var(--primaryRed);
+}
+.third-heading{
+ color: var(--primaryRed);
+}

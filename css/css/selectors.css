@@ -1,0 +1,33 @@
+/* basic selector */
+*{
+ color:#EC4E20 ;
+}
+#heading{
+ /* id */
+font-size: 60px;
+text-transform: uppercase;
+color:#FF9505 ;
+}
+.heading{
+ /* class */
+ font-size: 40px;
+ text-transform: capitalize;
+ color: #016FB9;
+}
+p{
+ letter-spacing: 20px;
+}
+/* descendant and child combinators */
+
+div h1{
+ color:#481620;
+}
+div > h1{
+ color: #00FFC5;
+}
+.header h1{
+ color:#7F675B ;
+}
+.header > h1{
+ color:#08415C ;
+}
